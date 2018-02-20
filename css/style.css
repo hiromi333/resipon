@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #8c4c4c;
+  font-size: 1.4rem; }
+
+p.logo img {
+  width: 100%; }
+
+@media (min-height: 250px) {
+  p.logo {
+    width: auto; } }
+.button {
+  margin: 30px;
+  width: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #bea300;
+  border: 3px solid #fff000;
+  background-color: #fff000; }
+
+.box {
+  border: solid 1px skyblue;
+  margin: 10px;
+  padding: 10px;
+  flex: 1; }
+
+body {
+  background-color: #fff999; }
+
+.container {
+  display: flex;
+  flex-direction: row; }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; } }
+.mail {
+  font-size: 10rem;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
